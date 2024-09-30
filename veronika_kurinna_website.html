@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокат Курінна Вероніка</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495E;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .main-section {
+            margin: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #34495E;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1, h2 {
+            color: #2C3E50;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #2C3E50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Адвокат Курінна Вероніка</h1>
+    <p>Професійна юридична допомога в сфері медичного права</p>
+</header>
+
+<nav>
+    <a href="#home">Головна</a>
+    <a href="#services">Послуги</a>
+    <a href="#experience">Досвід</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<div class="container">
+    <div class="main-section" id="services">
+        <h2>Послуги</h2>
+        <p>Як спеціаліст з медичного права, я надаю юридичні послуги у таких сферах:</p>
+        <ul>
+            <li>Консультації з медичного права</li>
+            <li>Захист прав пацієнтів</li>
+            <li>Юридична підтримка медичних установ</li>
+            <li>Супровід при укладанні медичних договорів</li>
+        </ul>
+    </div>
+
+    <div class="main-section" id="experience">
+        <h2>Професійний досвід</h2>
+        <p>Маю багаторічний досвід роботи у сфері права та спеціалізуюсь на медичному праві. Моя мета — захищати права пацієнтів та медичних закладів, забезпечуючи справедливість і законність у кожній справі.</p>
+        <p>Освіта: Київський національний університет ім. Тараса Шевченка, факультет права.</p>
+        <p>Досвід роботи: 10 років у сфері медичного права.</p>
+    </div>
+
+    <div class="main-section" id="contact">
+        <h2>Контактна форма</h2>
+        <form class="contact-form" action="/submit" method="POST">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" placeholder="Ваше ім'я...">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Ваш Email...">
+
+            <label for="message">Повідомлення</label>
+            <textarea id="message" name="message" placeholder="Ваше повідомлення..." rows="5"></textarea>
+
+            <input type="submit" value="Надіслати">
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>Адвокат Курінна Вероніка &copy; 2024</p>
+</footer>
+
+</body>
+</html>
